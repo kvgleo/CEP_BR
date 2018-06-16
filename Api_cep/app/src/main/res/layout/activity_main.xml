@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/layout1"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:id="@+id/etCep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/cep" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height ="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnBusca"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:text="@string/buscar"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout1">
+
+        <ImageView
+            android:id="@+id/imgCid"
+            android:background="@drawable/city"
+            style="@style/img"
+            android:contentDescription="@string/city"
+            />
+
+        <LinearLayout
+            style="@style/layout2">
+
+            <TextView
+                android:id="@+id/tvCid"
+                style="@style/text"
+                android:hint="@string/city"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout1">
+
+        <ImageView
+            android:id="@+id/imgState"
+            style="@style/img"
+            android:background="@drawable/state"
+            android:contentDescription="@string/state"
+            />
+
+        <LinearLayout
+            style="@style/layout2">
+
+            <TextView
+                android:id="@+id/tvState"
+                style="@style/text"
+                android:hint="@string/state"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout1">
+
+        <ImageView
+            android:id="@+id/imgArea"
+            style="@style/img"
+            android:background="@drawable/km"
+            android:contentDescription="@string/km"
+            />
+
+        <LinearLayout
+            style="@style/layout2">
+
+            <TextView
+                android:id="@+id/tvArea"
+                style="@style/text"
+                android:hint="@string/km"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/layout1">
+
+        <ImageView
+            android:id="@+id/imgFood"
+            style="@style/img"
+            android:background="@drawable/ibge"
+            android:contentDescription="@string/ibge"
+            />
+
+        <LinearLayout
+            style="@style/layout2">
+
+            <TextView
+                android:id="@+id/tvIbge"
+                style="@style/text"
+                android:hint="@string/ibge"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

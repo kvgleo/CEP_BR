@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cep">enter a CEP...</string>
+    <string name="km">KM² only...</string>
+    <string name="city">City....</string>
+    <string name="state">State...</string>
+    <string name="ibge">IBGE code...</string>
+    <string name="buscar">SEARCH</string>
+    <string name="erro1">Invalid CEP</string>
+    <string name="erro2">Could not perform query</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">CEP info BR</string>
+    <string name="cep">informe um CEP...</string>
+    <string name="km">KM²...</string>
+    <string name="city">Cidade...</string>
+    <string name="state">Estado...</string>
+    <string name="ibge">Código IBGE...</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="erro1">CEP Inválido</string>
+    <string name="erro2">Não foi possível realizar a consulta</string>
+</resources>
